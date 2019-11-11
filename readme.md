@@ -69,7 +69,7 @@ console.log("First Element Event: ", event.detail);
 
 ## Authors
 
-FreakyCoder, kuray.ogun@paraboly.com | kurayogun@gmail.com
+Author, author@work_email.com | author@personal_email.com
 
 ## License
 
