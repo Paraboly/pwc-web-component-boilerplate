@@ -9,7 +9,10 @@
 ![Platform - Platform Free Web](https://img.shields.io/badge/-Web%20%7C%20Platform%20Free-blue?style=for-the-badge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-![WebComponent PWC Animated Checkbox](https://raw.githubusercontent.com/paraboly/pwc-web-component-template/repository-resources/Screenshots/JSLibraryBoilerplate.png)
+<p align="center">
+  <img alt="WebComponent PWC Animated Checkbox"
+        src="https://raw.githubusercontent.com/paraboly/pwc-web-component-template/repository-resources/Screenshots/JSLibraryBoilerplate.png" />
+</p>
 
 ## [Live Codepen Example](https://codepen.io/wrathchaos/pen/dyyvRzM)
 
@@ -64,6 +67,7 @@ console.log("First Element Event: ", event.detail);
 ## Future Plans
 
 - [x] ~~Documentation~~
+- [x] ~~LICENSE~~
 - [ ] Color Customization
 - [ ] Animation Bug Fix
 
