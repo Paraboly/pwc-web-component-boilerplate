@@ -10,7 +10,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 <p align="center">
-  <img alt="WebComponent PWC Animated Checkbox"
+  <img alt="WebComponent PWC README Boilerplate"
         src="https://raw.githubusercontent.com/paraboly/pwc-web-component-template/master/assets/Screenshots/JSLibraryBoilerplate.png" />
 </p>
 
@@ -20,7 +20,13 @@
 
 ### Script tag
 
-- Put a script tag similar to this `<script	type="module" src="https://unpkg.com/@paraboly/pwc-web-component-template@latest/dist/pwc-web-component-template/pwc-web-component-template.esm.js"></script>` in the head of your index.html
+- Put two script tags similar to this in the head of your index.html:
+
+```html
+  <script type="module" src="https://unpkg.com/@paraboly/pwc-web-component-template@latest/dist/pwc-web-component-template/pwc-web-component-template.esm.js"></script>
+  <script nomodule src="https://unpkg.com/@paraboly/pwc-web-component-template@latest/dist/pwc-web-component-template/pwc-web-component-template.js"></script>
+```
+
 - Then you can use the element anywhere in your template, JSX, html etc
 
 ### Node Modules
@@ -38,7 +44,7 @@
 
 ## Basic Usage
 
-This is just an example from pwc-animated-checkbox, you need to change it !
+This is just an example from pwc-animated-checkbox, you need to change it!
 
 ```html
 <pwc-animated-checkbox></pwc-animated-checkbox>
@@ -48,7 +54,7 @@ This is just an example from pwc-animated-checkbox, you need to change it !
 
 ### JS Way
 
-This is just an example from pwc-animated-checkbox, you need to change it !
+This is just an example from pwc-animated-checkbox, you need to change it!
 
 ```js
 // Multiple Checkboxes
@@ -77,4 +83,6 @@ Author, author@work_email.com | author@personal_email.com
 
 ## License
 
-WebComponent PWC README Boilerplate is available under the MIT license. See the LICENSE file for more info.
+WebComponent PWC README Boilerplate is available under the MIT license. 
+
+See the LICENSE file for more info.
