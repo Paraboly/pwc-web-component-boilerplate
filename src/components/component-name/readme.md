@@ -1,4 +1,4 @@
-# component-name-here
+# component-name
 
 <!-- Auto Generated Below -->
 

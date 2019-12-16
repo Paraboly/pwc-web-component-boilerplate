@@ -10,7 +10,7 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 
 export namespace Components {
-  interface ComponentNameHere {
+  interface ComponentName {
     /**
     * The first name
     */
@@ -29,18 +29,18 @@ export namespace Components {
 declare global {
 
 
-  interface HTMLComponentNameHereElement extends Components.ComponentNameHere, HTMLStencilElement {}
-  var HTMLComponentNameHereElement: {
-    prototype: HTMLComponentNameHereElement;
-    new (): HTMLComponentNameHereElement;
+  interface HTMLComponentNameElement extends Components.ComponentName, HTMLStencilElement {}
+  var HTMLComponentNameElement: {
+    prototype: HTMLComponentNameElement;
+    new (): HTMLComponentNameElement;
   };
   interface HTMLElementTagNameMap {
-    'component-name-here': HTMLComponentNameHereElement;
+    'component-name': HTMLComponentNameElement;
   }
 }
 
 declare namespace LocalJSX {
-  interface ComponentNameHere {
+  interface ComponentName {
     /**
     * The first name
     */
@@ -56,7 +56,7 @@ declare namespace LocalJSX {
   }
 
   interface IntrinsicElements {
-    'component-name-here': ComponentNameHere;
+    'component-name': ComponentName;
   }
 }
 
@@ -66,7 +66,7 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
   export namespace JSX {
     interface IntrinsicElements {
-      'component-name-here': LocalJSX.ComponentNameHere & JSXBase.HTMLAttributes<HTMLComponentNameHereElement>;
+      'component-name': LocalJSX.ComponentName & JSXBase.HTMLAttributes<HTMLComponentNameElement>;
     }
   }
 }
