@@ -1,5 +1,5 @@
 {
-  "name": "@paraboly/PROJECT_NAME_HERE",
+  "name": "@paraboly/project-name",
   "version": "0.0.1",
   "description": "Template repository for Paraboly Web Component Libraries",
   "keywords": [
@@ -12,8 +12,8 @@
     "frontend"
   ],
   "homepage": "https://www.paraboly.com",
-  "bugs": "https://github.com/Paraboly/PROJECT_NAME_HERE/issues",
-  "repository": "git@github.com:Paraboly/PROJECT_NAME_HERE.git",
+  "bugs": "https://github.com/Paraboly/project-name/issues",
+  "repository": "git@github.com:Paraboly/project-name.git",
   "author": "Author (https://author.url.here/) <author@email.com>",
   "license": "MIT",
   "peerDependencies": {},
@@ -24,7 +24,7 @@
   "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/PROJECT_NAME_HERE/PROJECT_NAME_HERE.js",
+  "unpkg": "dist/project-name/project-name.js",
   "files": [
     "dist/",
     "loader/"

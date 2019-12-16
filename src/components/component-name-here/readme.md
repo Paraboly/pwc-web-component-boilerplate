@@ -1,6 +1,4 @@
-# my-component
-
-
+# component-name-here
 
 <!-- Auto Generated Below -->
 

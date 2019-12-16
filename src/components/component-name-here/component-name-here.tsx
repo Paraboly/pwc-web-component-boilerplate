@@ -1,12 +1,12 @@
-import { Component, Prop, h } from '@stencil/core';
-import { format } from '../../utils/utils';
+import { Component, Prop, h } from "@stencil/core";
+import { format } from "../../utils/utils";
 
 @Component({
-  tag: 'my-component',
-  styleUrl: 'my-component.css',
+  tag: "component-name-here",
+  styleUrl: "component-name-here.scss",
   shadow: true
 })
-export class MyComponent {
+export class ComponentName {
   /**
    * The first name
    */

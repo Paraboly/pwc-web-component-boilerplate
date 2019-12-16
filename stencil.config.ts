@@ -2,7 +2,7 @@ import { Config } from "@stencil/core";
 import { sass } from "@stencil/sass";
 
 export const config: Config = {
-  namespace: "PROJECT_NAME_HERE",
+  namespace: "project-name",
   outputTargets: [
     {
       type: "dist",
