@@ -31,8 +31,8 @@
   "scripts": {
     "build": "stencil build --docs",
     "start": "stencil build --dev --watch --serve",
-    "test": "stencil test --spec --e2e",
-    "test.watch": "stencil test --spec --e2e --watchAll",
+    "test": "stencil test --spec --e2e --passWithNoTests",
+    "test.watch": "stencil test --spec --e2e --watchAll --passWithNoTests",
     "generate": "stencil generate",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\" \"src/**/*.tsx\" \"src/**/*.jsx\"",
     "lint": "tslint -p tsconfig.json",
