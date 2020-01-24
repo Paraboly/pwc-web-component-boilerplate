@@ -1,0 +1,7 @@
+# generated
+/src/components.d.ts
+/dist
+/loader
+/node_modules
+/www
+/.stencil
