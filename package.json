@@ -40,7 +40,11 @@
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags",
+    "clean": "rm -Rf .stencil/ && rm -Rf dist/ && rm -Rf loader/ && rm -Rf node_modules/ && rm -Rf www/ && rm -f ./package-lock.json && npm cache clean -f",
+    "clean-windows": "IF EXIST .stencil rd /s /q .stencil && IF EXIST dist rd /s /q dist && IF EXIST loader rd /s /q loader && IF EXIST node_modules rd /s /q node_modules && IF EXIST www rd /s /q www && IF EXIST package-lock.json DEL package-lock.json && npm cache clean -f",
+    "clean-and-install": "npm run clean && npm i",
+    "clean-and-install-windows": "npm run clean-windows && npm i"
   },
   "devDependencies": {
     "@stencil/core": "^1.8.5",
